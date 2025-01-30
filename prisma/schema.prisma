@@ -1,0 +1,7 @@
+model Booking {
+  phonenumber   String  @id  
+  email         String  @unique
+  firstname     String
+  lastname      String  
+  remark        String? 
+}

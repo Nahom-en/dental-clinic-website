@@ -32,4 +32,37 @@ body {
               rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
 }
 
+.tinted-image {
+  background-image: url("../public/image/senay.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative; 
+}
+
+.tinted-image {
+  position: relative; /* Ensures ::before is positioned relative to this div */
+  width: 100%; /* Ensures it spans the full container width */
+}
+
+.tinted-image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;  /* Covers 90% of the screen */
+  height: 100%;
+  background: linear-gradient(to right, 
+  rgba(0, 0, 0, 0.7),  /* Stronger black tint */
+  rgba(0, 0, 0, 0.5) 50%,  
+  rgba(0, 0, 0, 0.2) 80%,  
+  rgba(0, 0, 0, 0) 100%  
+); 
+  z-index: 1; /* Keeps it behind the text */
+}
+
+.tinted-image > div {
+  position: relative;
+  z-index: 2; 
+  color: white; /* Ensures text is visible */
+}
 

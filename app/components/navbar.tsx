@@ -26,7 +26,7 @@ export default function Navbar() {
               <li><Link href="/">Home</Link></li>
               <li><Link href="/about">About us</Link></li>
               <li><Link href="/services">Services</Link></li>
-              <li><Link href="/testimonials">Testimonials</Link></li>
+             
             </ul>
           </div>
         </div>
@@ -35,7 +35,7 @@ export default function Navbar() {
             <li><Link href="/">Home</Link></li>
             <li><Link href="/about">About us</Link></li>
             <li><Link href="/services">Services</Link></li>
-            <li><Link href="/testimonials">Testimonials</Link></li>
+            
           </ul>
         </div>
         <div className="navbar-end">

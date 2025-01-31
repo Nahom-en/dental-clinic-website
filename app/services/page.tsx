@@ -1,5 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
+import "../animation.css";
+
+export const metadata = {
+  title: 'Dental Services at Hani Dental Clinic',
+  description: 'Explore the wide range of dental services offered at Hani Dental Clinic, including orthodontics, cosmetic dentistry, teeth whitening, and more for a healthier and brighter smile.',
+  keywords: 'Dental services, orthodontics, cosmetic dentistry, teeth whitening, restorative dentistry, general dentistry, dental wellness',
+  robots: 'index, follow',
+};
 
 export default function Services() {
   return (

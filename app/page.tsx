@@ -5,26 +5,42 @@ import Footer from "./components/footer";
 import { Link } from "lucide-react";
 import teams from "./components/teams";
 
+export const metadata = {
+  title: 'Hani Dental Clinic | Quality Dental Care in Addis Ababa',
+  description: 'Welcome to Hani Dental Clinic, your trusted dental care provider in Addis Ababa. Explore our wide range of services including orthodontics, cosmetic dentistry, and more.',
+  keywords: 'Hani Dental Clinic, orthodontics, cosmetic dentistry, teeth whitening, restorative dentistry, general dentistry, dental care Addis Ababa',
+  robots: 'index, follow', // Telling search engines to index and follow the page's links
+};
+
 export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <div className="body flex flex-col justify-center items-center text-center min-h-screen p-4 w-full">
-        <h1 className="font-bold text-4xl md:text-6xl text-[#1F2F16]">Expand Your <span className="text-[#414073]">Smile</span></h1>
-        <h2 className="text-cyan-300 text-2xl md:text-3xl mt-2">Hani Dental Clinic</h2>
-        <ul className="mt-6 space-y-3 text-lg md:text-xl">
-          <li>Orthodontics</li>
-          <li>Cosmetic Dentistry</li>
-          <li>Teeth Whitening</li>
-          <li>Restorative Dentistry</li>
-          <li>General Dentistry</li>
-        </ul>
-        <div className="mt-8">
-          <button style={{ color: 'white' }} className="px-6 py-3 text-lg rounded-lg bg-[#414073]  hover:bg-[#353062] transition">
-            Book Appointment
-          </button>
-        </div>
-      </div>
+      <div className="tinted-image body flex flex-col justify-center items-center lg:items-start min-h-screen p-6 lg:p-16 w-full text-center lg:text-left text-white">
+  <div className="w-full max-w-lg">
+    <h1 className="font-bold text-4xl sm:text-5xl md:text-6xl">
+      Expand Your <span className="text-yellow-400">Smile</span>
+    </h1>
+    <h2 className="text-cyan-300 text-2xl sm:text-3xl mt-2">
+      Hani Dental Clinic
+    </h2>
+    <ul className="mt-6 space-y-3 text-lg sm:text-xl">
+      <li>Orthodontics</li>
+      <li>Cosmetic Dentistry</li>
+      <li>Teeth Whitening</li>
+      <li>Restorative Dentistry</li>
+      <li>General Dentistry</li>
+    </ul>
+    <div className="mt-8">
+      <button className="px-6 py-3 text-lg rounded-lg bg-yellow-400 text-black hover:bg-yellow-500 transition">
+        Book Appointment
+      </button>
+    </div>
+  </div>
+</div>
+
+
+
 
       {/* Meet Our Team Section */}
       <div className="team flex flex-col justify-center items-center text-center py-16 px-4 w-full bg-gray-50">

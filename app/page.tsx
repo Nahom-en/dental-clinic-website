@@ -19,23 +19,41 @@ export default function Home() {
       <div className="tinted-image body flex flex-col justify-center items-center lg:items-start min-h-screen p-6 lg:p-16 w-full text-center lg:text-left text-white">
   <div className="w-full max-w-lg">
     <h1 className="font-bold text-4xl sm:text-5xl md:text-6xl">
-      Expand Your <span className="text-yellow-400">Smile</span>
+      Expand Your <span className="text-cyan-300">Smile</span>
     </h1>
     <h2 className="text-cyan-300 text-2xl sm:text-3xl mt-2">
       Hani Dental Clinic
     </h2>
-    <ul className="mt-6 space-y-3 text-lg sm:text-xl">
-      <li>Orthodontics</li>
-      <li>Cosmetic Dentistry</li>
-      <li>Teeth Whitening</li>
-      <li>Restorative Dentistry</li>
-      <li>General Dentistry</li>
-    </ul>
-    <div className="mt-8">
-      <button className="px-6 py-3 text-lg rounded-lg bg-yellow-400 text-black hover:bg-yellow-500 transition">
-        Book Appointment
-      </button>
-    </div>
+    <ul className="mt-6 text-lg sm:text-xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-5">
+  <li className="flex items-center space-x-3">
+    <img src="icons/general.svg" alt="Orthodontics" className="w-15 h-15" />
+    <span>Orthodontics</span>
+  </li>
+  <li className="flex items-center space-x-3">
+    <img src="icons/hygien.svg" alt="Cosmetic Dentistry" className="w-15 h-15" />
+    <span>Cosmetic Dentistry</span>
+  </li>
+  <li className="flex items-center space-x-3">
+    <img src="icons/orthodontics.svg" alt="Teeth Whitening" className="w-15 h-15" />
+    <span>Teeth Whitening</span>
+  </li>
+  <li className="flex items-center space-x-3">
+    <img src="icons/restorative.svg" alt="Restorative Dentistry" className="w-15 h-15" />
+    <span>Restorative Dentistry</span>
+  </li>
+  <li className="flex items-center space-x-3">
+    <img src="icons/teethh.svg" alt="General Dentistry" className="w-15 h-15" />
+    <span>General Dentistry</span>
+  </li>
+</ul>
+
+
+
+          <div className="mt-8">
+            <button className="px-6 py-3 text-lg rounded-lg bg-[#414073] text-white hover:bg-[#353062] button-hover transition">
+              Book Appointment
+            </button>
+          </div>
   </div>
 </div>
 

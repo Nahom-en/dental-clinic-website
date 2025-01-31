@@ -33,7 +33,7 @@ body {
 }
 
 .tinted-image {
-  background-image: url("../public/image/senay.jpg");
+  background-image: url("../public/image/hero.jpg");
   background-position: center;
   background-size: cover;
   position: relative; 

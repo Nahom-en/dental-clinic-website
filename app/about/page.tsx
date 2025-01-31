@@ -12,12 +12,12 @@ export const metadata = {
 export default function About() {
   return (
     <>
-      <div className="flex flex-col lg:flex-row gap-4 m-5 h-screen overflow-x-hidden">
+      <div className="flex flex-col lg:flex-row gap-4 overflow-x-hidden lg:p-8">
         {/* Images */}
         <img
           src="image/dentall.jpg"
           alt="Hani Dental Clinic Image"
-          className="bookcard ml-0 lg:ml-48 mt-6 w-full lg:w-[300px] h-auto object-cover rounded-lg shadow-md fade-in"
+          className="bookcard ml-0  mt-6 w-full lg:w-[300px] h-auto object-cover rounded-lg shadow-md fade-in"
         />
         <img
           src="image/book.jpg"
@@ -72,7 +72,7 @@ export default function About() {
             Ready to take the next step? Booking your visit is a breeze with our seamless online process. Whether you're here for a routine check-up or a special treatment, we're dedicated to making your experience as smooth as possible. Let's make your visit unforgettable—book now and start your journey to a brighter smile!
           </p>
           <div className="mt-4">
-            <button className="px-6 py-3 text-lg rounded-lg bg-[#414073] hover:bg-[#353062] button-hover transition">
+            <button className="px-6 py-3 text-lg rounded-lg bg-[#414073] text-white hover:bg-[#353062] button-hover transition">
               Book Appointment
             </button>
           </div>

@@ -1,5 +1,4 @@
-import Image from "next/image";
-import Link from "next/link";
+
 import "../animation.css"
 
 export const metadata = {
@@ -79,7 +78,7 @@ export default function About() {
         </div>
 
         <div className="lg:w-1/2 order-1 lg:order-2 mb-8 lg:mb-0 slide-in-right">
-          <Image
+          <img
             src="/image/book.jpg"
             alt="Book Visit Image"
             width={500}

@@ -1,0 +1,166 @@
+/* Clean and Catchy Fade-in Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); /* Start below the page */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* End in normal position */
+  }
+}
+
+/* Apply Fade-in to the entire page */
+.services-page {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards; /* Smooth fade-in for the whole page */
+}
+
+/* Service Card Animation with Delays */
+.service-card {
+  opacity: 0;
+  transform: translateY(30px); /* Cards start slightly below */
+  animation: fadeIn 0.8s ease-out forwards;
+  transition: transform 0.3s ease-in-out; /* Smooth scaling on hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Add delay to each service card for cascading effect */
+.service-card:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.service-card:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.service-card:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.service-card:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+.service-card:nth-child(5) {
+  animation-delay: 1s;
+}
+
+.service-card:nth-child(6) {
+  animation-delay: 1.2s;
+}
+
+/* Hover Effect - Subtle Scaling */
+.service-card:hover {
+  transform: scale(1.05); /* Scale up gently */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); /* Larger shadow on hover */
+}
+
+
+/* Fade-In Animation */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.5s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Slide-In from Left */
+.slide-left {
+  transform: translateX(-100%);
+  animation: slideLeft 1s forwards;
+}
+
+@keyframes slideLeft {
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Slide-In from Right */
+.slide-right {
+  transform: translateX(100%);
+  animation: slideRight 1s forwards;
+}
+
+@keyframes slideRight {
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Smooth scale-up effect */
+.scale-up {
+  transform: scale(0.9);
+  animation: scaleUp 1s forwards;
+}
+
+@keyframes scaleUp {
+  to {
+    transform: scale(1);
+  }
+}
+
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Slide-in from left animation */
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Slide-in from right animation */
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Fade-in for images */
+.fade-in {
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+/* Slide-in for text */
+.slide-in-left {
+  animation: slideInLeft 1s ease-out forwards;
+}
+
+/* Slide-in for the second image */
+.slide-in-right {
+  animation: slideInRight 1s ease-out forwards;
+}
+
+/* Book Visit button animation */
+@keyframes buttonHover {
+  0% {
+    background-color: #414073;
+  }
+  100% {
+    background-color: #353062;
+  }
+}
+
+.button-hover:hover {
+  animation: buttonHover 0.3s forwards;
+}

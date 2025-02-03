@@ -1,0 +1,59 @@
+[33mcommit 2aeb4cc719ee3701ae9a2704c85873aa90963cfd[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;32mfeatures[m[33m, [m[1;32mfeature[m[33m, [m[1;32mbooking-form[m[33m)[m
+Author: Nahom <nahom1endashaw@gmail.com>
+Date:   Fri Jan 31 11:28:36 2025 +0300
+
+    frontend finished
+
+[33mcommit 129560383e3d41e1af2a4a1026f9f40279efc2e0[m
+Author: Nahom <nahom1endashaw@gmail.com>
+Date:   Fri Jan 31 10:22:33 2025 +0300
+
+    about to fix about page from master
+
+[33mcommit 810236fe5f274d8f7abb8cdc3612d5a3edb9f609[m
+Author: Nahom <nahom1endashaw@gmail.com>
+Date:   Thu Jan 30 11:24:41 2025 +0300
+
+    changed button colors
+
+[33mcommit 546e7cd967c431880150aa379d7c6c339ba7a03e[m
+Author: Nahom <nahom1endashaw@gmail.com>
+Date:   Wed Jan 29 18:05:39 2025 +0300
+
+    prisma model created
+
+[33mcommit 5b847cfa0fbf6390619895e278386464934ddb5f[m
+Author: Nahom <nahom1endashaw@gmail.com>
+Date:   Wed Jan 29 17:28:46 2025 +0300
+
+    booking page ui done
+
+[33mcommit 5724af126a17c5b4c12d1c325d97b6550fcdc90f[m
+Author: Nahom <nahom1endashaw@gmail.com>
+Date:   Wed Jan 29 17:16:53 2025 +0300
+
+    doing booking compoinent
+
+[33mcommit 252efab78e7d48673dcb0ecfdb55f9454f867bc5[m
+Author: Nahom <nahom1endashaw@gmail.com>
+Date:   Wed Jan 29 16:43:12 2025 +0300
+
+    second day
+
+[33mcommit d1b977e116c819741f0a14e14631f3e244c298f3[m
+Author: Nahom <nahom1endashaw@gmail.com>
+Date:   Tue Jan 28 11:02:52 2025 +0300
+
+    wirefram contents written
+
+[33mcommit 23b6fd2098c6212d7fab8db03429c5ed23a4245e[m
+Author: Nahom <nahom1endashaw@gmail.com>
+Date:   Tue Jan 28 09:55:16 2025 +0300
+
+    Next Js file and navbar created
+
+[33mcommit a15707cede6448f75a7f8fa90fe7bc9a5ca7b674[m
+Author: Nahom <nahom1endashaw@gmail.com>
+Date:   Tue Jan 28 09:29:16 2025 +0300
+
+    Initial commit from Create Next App

@@ -1,8 +1,5 @@
 import Image from "next/image";
-import Navbar from "./components/navbar";
 import TeamCard from "./components/teamcard";
-import Footer from "./components/footer";
-import { Link } from "lucide-react";
 import teams from "./components/teams";
 
 export const metadata = {
